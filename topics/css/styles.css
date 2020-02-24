@@ -1,0 +1,45 @@
+
+
+body {
+    background-color:white;
+}
+
+.answer, .result{
+    text-align: center;
+}
+
+.row {
+    
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: white;
+    border: 4px solid;
+    display: flex;
+    justify-content: center;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.guessSubmit{
+	color: #cecd24;
+	text-decoration: none;
+	font-size: 2em;
+	display: inline-block;
+	text-transform: uppercase;
+	border: 2px solid #cecd24;
+	
+}
+.guessSubmit:hover{
+    opacity: .5;
+}
+
+.label{
+    background-color: white;
+    color: #cecd24;
+	text-decoration: none;
+	display: inline-block;
+	border: 2px solid #cecd24;
+}
